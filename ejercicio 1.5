@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(void){
+ 	int A,B,C,j=0,i; 
+ 	int nmayor=0, total=0; 
+ 	printf("ejercicio 1.5\n");
+ 	printf("indica el valor de A: \n");
+ 	scanf("%d", &A);
+ 	printf("indica el valor de B: \n");
+ 	scanf("%d", &B);
+	 {
+	 if (A>B) nmayor=A; else nmayor=B;
+	 for (i=1; i<=nmayor; i++)
+	 {
+	 	total=total+1;
+	 	printf("%d+",i);
+	 }
+	 printf("sumatoria total; %d\n",total);
+	 return 0; 
+	 	 
+}
+}

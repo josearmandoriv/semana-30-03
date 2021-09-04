@@ -2,7 +2,7 @@
 int main(void){
  	int A,B,C,j=0,i; 
  	int nmayor=0, total=0; 
- 	printf("ejercicio 1.5\n");
+ 	printf("ejercicio 15\n");
  	printf("indica el valor de A: \n");
  	scanf("%d", &A);
  	printf("indica el valor de B: \n");
